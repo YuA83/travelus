@@ -9,8 +9,14 @@
   padding: 0;
 }
 body {
-  padding-top: 75px;
-  background-color: #e9e6e1;
+    padding-top: 75px;
+    background-color: #e9e6e1;
+    max-width: 100%;
+    overflow-x: hidden;
+    -ms-overflow-style: none; 
+} 
+::-webkit-scrollbar { 
+    display: none; 
 }
 header {
   position: fixed;
